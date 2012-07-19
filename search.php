@@ -21,7 +21,7 @@
 								</header> <!-- end article header -->
 					
 								<section class="post-content">
-								    <?php the_excerpt('<span class="read-more">Read more &raquo;</span>'); ?>
+								    <?php the_excerpt('<span class="read-more"> _e("Read more &raquo;","bonestheme")</span>'); ?>
 					
 								</section> <!-- end article section -->
 						

@@ -20,7 +20,17 @@ The comments page for Bones
 
 <?php if ( have_comments() ) : ?>
 	
-	<h3 id="comments" class="h2"><?php comments_number('<span>No</span> Responses', '<span>One</span> Response', '<span>%</span> Responses' );?> to &#8220;<?php the_title(); ?>&#8221;</h3>
+	<h3 id="comments" class="h2">
+		<?php 
+			printf( _n( 'One Response to ', '%1$s Responses to ', get_comments_number(), 'bonestheme'),
+			number_format_i18n( get_comments_number() ))
+		?>
+		&#8220;
+		<?php
+		  	the_title()
+		?>
+		&#8221;
+	</h3>
 
 	<nav id="comment-nav">
 		<ul class="clearfix">
@@ -41,6 +51,7 @@ The comments page for Bones
 	</nav>
   
 	<?php else : // this is displayed if there are no comments so far ?>
+		<?php _e("No comments.", "bonestheme"); ?>
 
 	<?php if ( comments_open() ) : ?>
     	<!-- If comments are open, but there are no comments. -->
@@ -67,7 +78,7 @@ The comments page for Bones
 
 	<?php if ( get_option('comment_registration') && !is_user_logged_in() ) : ?>
   	<div class="alert help">
-  		<p><?php printf( 'You must be %1$slogged in%2$s to post a comment.', '<a href="<?php echo wp_login_url( get_permalink() ); ?>">', '</a>' ); ?></p>
+  		<p><?php printf( _e('You must be logged in to post a comment.','bonestheme'), '<a href="<?php echo wp_login_url( get_permalink() ); ?>">', '</a>' ); ?></p>
   	</div>
 	<?php else : ?>
 

@@ -1,380 +1,420 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: wp theme bones\n"
+"Project-Id-Version: Bones\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-02 22:11+0100\n"
-"PO-Revision-Date: \n"
-"Language-Team: fulgor <frag.fulgor@gmail.com>\n"
-"Language-Team: fulgor <frag.fulgor@gmail.com>\n"
+"POT-Creation-Date: 2012-07-19 15:24+0100\n"
+"PO-Revision-Date: 2012-07-19 15:24+0100\n"
+"Last-Translator: \n"
+"Language-Team: Anthony DURAND <@_anthony_durand>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;esc_attr__\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n>1\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-KeywordsList: __;_e;_n\n"
-"X-Poedit-Basepath: /home/fulgor/GIT/bones\n"
-"Last-Translator: \n"
-"X-Poedit-SearchPath-0: /home/fulgor/GIT/bones\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\wordpress\\wp-content\\themes\\bones\n"
 
-#: comments.php:12
-msgid "This post is password protected. Enter the password to view comments."
-msgstr "Cet article est protégé par un mot de passe. Entrer le mot de passe pour voir les commentaires."
-
-#: comments.php:23
-msgid "Response"
-msgstr "Réponse"
-
-#: comments.php:24
-msgid "Responses"
-msgstr "Réponses"
-
-#: comments.php:25
-msgid "One"
-msgstr "Un"
-
-#: comments.php:26
-msgid "No"
-msgstr "Aucun"
-
-#: comments.php:32
-msgid "to"
-msgstr "à"
-
-#: comments.php:59
-msgid "Comments are closed."
-msgstr "Les commentaires sont clos."
-
-#: comments.php:70
-msgid "Leave a Reply"
-msgstr "Laisser une réponse"
-
-#: comments.php:70
-#, php-format
-msgid "Leave a Reply to %s"
-msgstr "Laisser une réponse à %s"
-
-#: comments.php:78
-msgid "You must be"
-msgstr "Vous devez être"
-
-#: comments.php:78
-msgid "logged in"
-msgstr "identifié"
-
-#: comments.php:78
-msgid "to post a comment"
-msgstr "pour laisser un commentaire."
-
-#: comments.php:86
-msgid "Logged in as"
-msgstr "Connecté comme"
-
-#: comments.php:86
-msgid "Log out of this account"
-msgstr "Se déconnecter de ce compte"
-
-#: comments.php:86
-msgid "Log out"
-msgstr "Se déconnecter"
-
-#: comments.php:93
-msgid "Name"
-msgstr "Nom"
-
-#: comments.php:93
-#: comments.php:98
-msgid "(required)"
-msgstr "(requis)"
-
-#: comments.php:94
-msgid "Your Name"
-msgstr "Votre nom"
-
-#: comments.php:98
-msgid "Email"
-msgstr "Email"
-
-#: comments.php:99
-msgid "Your Email"
-msgstr "Votre Email"
-
-#: comments.php:100
-msgid "will not be published"
-msgstr "ne sera pas publié"
-
-#: comments.php:104
-msgid "Website"
-msgstr "Site internet"
-
-#: comments.php:105
-msgid "Your Website"
-msgstr "Votre site internet"
-
-#: comments.php:112
-msgid "Your Comment Here..."
-msgstr "Vote commentaire ici..."
-
-#: comments.php:115
-msgid "Submit Comment"
-msgstr "Soumettre un commentaire"
-
-#: comments.php:120
-msgid "You can use these tags"
-msgstr "Vous pouvez utiliser ces tags"
-
-#: header.php:23
-#, php-format
-msgid "Page %s"
-msgstr "Page %s"
-
-#: taxonomy-custom_cat.php:22
-#: archive.php:9
-msgid "Posts Categorized:"
-msgstr "Archive des articles sous la catégorie :"
-
-#: taxonomy-custom_cat.php:32
-#: embed-post_meta.php:1
-#: single-custom_type.php:30
-msgid "Posted"
-msgstr "Publié"
-
-#: taxonomy-custom_cat.php:32
-#: embed-post_meta.php:1
-#: single-custom_type.php:30
-msgid "by"
-msgstr "par"
-
-#: taxonomy-custom_cat.php:32
-#: embed-post_meta.php:1
-#: single-custom_type.php:30
-msgid "filed under"
-msgstr "dans la catégorie"
-
-#: taxonomy-custom_cat.php:41
-msgid "Read more"
-msgstr "En lire plus"
-
-#: functions.php:103
-msgid "(Edit)"
-msgstr "(Editer)"
-
-#: functions.php:107
-msgid "Your comment is awaiting moderation."
-msgstr "Votre commentaire est en attente de modération"
-
-#: functions.php:124
-msgid "Search for:"
-msgstr "Recherche pour :"
-
-#: functions.php:125
-msgid "Search the Site..."
-msgstr "Chercher sur le site..."
-
-#: 404.php:11
+#: C:\wamp\www\wordpress\wp-content\themes\bones/404.php:13
 msgid "Epic 404 - Article Not Found"
 msgstr "404 Epique - Article non trouvé"
 
-#: 404.php:17
+#: C:\wamp\www\wordpress\wp-content\themes\bones/404.php:19
 msgid "The article you were looking for was not found, but maybe try looking again!"
-msgstr "L'article que vous demandez est inexistant, effectuez plutôt une recherche"
+msgstr "L'article que vous demandez est inexistant, effectuez plutôt une recherche !"
 
-#: search.php:7
-msgid "Search Results for:"
-msgstr "Résultats de recherche pour :"
+#: C:\wamp\www\wordpress\wp-content\themes\bones/404.php:31
+msgid "This is the 404.php template."
+msgstr "Ceci est le modèle de 404.php"
 
-#: search.php:23
-msgid "Read more on"
-msgstr "En lire plus sur"
+#: C:\wamp\www\wordpress\wp-content\themes\bones/archive-custom_type.php:19
+#: C:\wamp\www\wordpress\wp-content\themes\bones/archive.php:48
+#: C:\wamp\www\wordpress\wp-content\themes\bones/index.php:17
+#: C:\wamp\www\wordpress\wp-content\themes\bones/page-custom.php:23
+#: C:\wamp\www\wordpress\wp-content\themes\bones/page.php:17
+#: C:\wamp\www\wordpress\wp-content\themes\bones/search.php:19
+#: C:\wamp\www\wordpress\wp-content\themes\bones/single-custom_type.php:32
+#: C:\wamp\www\wordpress\wp-content\themes\bones/single.php:17
+#: C:\wamp\www\wordpress\wp-content\themes\bones/taxonomy-custom_cat.php:34
+msgid "Posted"
+msgstr "Posté le"
 
-#: archive.php:13
-msgid "Posts Tagged:"
-msgstr "Articles taggés :"
+#: C:\wamp\www\wordpress\wp-content\themes\bones/archive-custom_type.php:19
+#: C:\wamp\www\wordpress\wp-content\themes\bones/archive.php:48
+#: C:\wamp\www\wordpress\wp-content\themes\bones/index.php:17
+#: C:\wamp\www\wordpress\wp-content\themes\bones/page-custom.php:23
+#: C:\wamp\www\wordpress\wp-content\themes\bones/page.php:17
+#: C:\wamp\www\wordpress\wp-content\themes\bones/search.php:19
+#: C:\wamp\www\wordpress\wp-content\themes\bones/single-custom_type.php:32
+#: C:\wamp\www\wordpress\wp-content\themes\bones/single.php:17
+#: C:\wamp\www\wordpress\wp-content\themes\bones/taxonomy-custom_cat.php:34
+msgid "by"
+msgstr "par"
 
-#: archive.php:17
-#: author.php:8
-msgid "Posts By:"
-msgstr "Articles par :"
-
-#: archive.php:21
-msgid "Daily Archives:"
-msgstr "Archives quotidiennes :"
-
-#: archive.php:25
-msgid "Monthly Archives:"
-msgstr "Archives mensuelles :"
-
-#: archive.php:29
-msgid "Yearly Archives:"
-msgstr "Archives annuelles :"
-
-#: single-custom_type.php:43
-msgid "Custom Tags"
-msgstr "Tags personnalisés"
-
-#: embed-tags.php:3
-msgid "Tag"
-msgstr "Tag"
-
-#: embed-tags.php:3
-msgid "Tags"
-msgstr "Tags"
-
-#: image.php:20
-msgid "Read the rest of this entry"
-msgstr "Lire la suite de cette article"
-
-#: image.php:38
-msgid "Sorry, no attachments matched your criteria."
-msgstr "Désolé, aucun attachement ne correspond à vos critères."
-
-#: embed-prev_next.php:3
+#: C:\wamp\www\wordpress\wp-content\themes\bones/archive-custom_type.php:44
+#: C:\wamp\www\wordpress\wp-content\themes\bones/archive.php:75
+#: C:\wamp\www\wordpress\wp-content\themes\bones/index.php:44
+#: C:\wamp\www\wordpress\wp-content\themes\bones/search.php:43
+#: C:\wamp\www\wordpress\wp-content\themes\bones/taxonomy-custom_cat.php:59
 msgid "&laquo; Older Entries"
 msgstr "&laquo; Anciens articles"
 
-#: embed-prev_next.php:4
+#: C:\wamp\www\wordpress\wp-content\themes\bones/archive-custom_type.php:45
+#: C:\wamp\www\wordpress\wp-content\themes\bones/archive.php:76
+#: C:\wamp\www\wordpress\wp-content\themes\bones/index.php:45
+#: C:\wamp\www\wordpress\wp-content\themes\bones/search.php:44
+#: C:\wamp\www\wordpress\wp-content\themes\bones/taxonomy-custom_cat.php:60
 msgid "Newer Entries &raquo;"
 msgstr "Nouveaux articles &raquo;"
 
-#: footer.php:9
-msgid "is powered by"
-msgstr "est propulsé par"
+#: C:\wamp\www\wordpress\wp-content\themes\bones/archive-custom_type.php:54
+#: C:\wamp\www\wordpress\wp-content\themes\bones/archive.php:85
+#: C:\wamp\www\wordpress\wp-content\themes\bones/index.php:54
+#: C:\wamp\www\wordpress\wp-content\themes\bones/page-custom.php:47
+#: C:\wamp\www\wordpress\wp-content\themes\bones/page.php:41
+#: C:\wamp\www\wordpress\wp-content\themes\bones/single-custom_type.php:58
+#: C:\wamp\www\wordpress\wp-content\themes\bones/single.php:41
+#: C:\wamp\www\wordpress\wp-content\themes\bones/taxonomy-custom_cat.php:69
+msgid "Oops, Post Not Found!"
+msgstr "Oups, article non trouvé !"
 
-#: embed-not_found.php:3
-msgid "Not Found"
-msgstr "Non trouvé"
+#: C:\wamp\www\wordpress\wp-content\themes\bones/archive-custom_type.php:57
+#: C:\wamp\www\wordpress\wp-content\themes\bones/archive.php:88
+#: C:\wamp\www\wordpress\wp-content\themes\bones/index.php:57
+#: C:\wamp\www\wordpress\wp-content\themes\bones/page-custom.php:50
+#: C:\wamp\www\wordpress\wp-content\themes\bones/page.php:44
+#: C:\wamp\www\wordpress\wp-content\themes\bones/single-custom_type.php:61
+#: C:\wamp\www\wordpress\wp-content\themes\bones/single.php:44
+#: C:\wamp\www\wordpress\wp-content\themes\bones/taxonomy-custom_cat.php:72
+msgid "Uh Oh. Something is missing. Try double checking things."
+msgstr "Oh oh. Quelquechose manque à l'appel. Vérifier plutôt deux fois qu'une !"
 
-#: embed-not_found.php:6
-msgid "Sorry, but the requested resource was not found on this site."
-msgstr "Désolé mais la ressource recherchée est introuvable sur ce site."
+#: C:\wamp\www\wordpress\wp-content\themes\bones/archive-custom_type.php:60
+msgid "This is the error message in the custom posty type archive template."
+msgstr "C'est le message d'erreur du modèle d'archive du type d'article personnalisé."
 
-#: sidebar.php:15
+#: C:\wamp\www\wordpress\wp-content\themes\bones/archive.php:11
+#: C:\wamp\www\wordpress\wp-content\themes\bones/taxonomy-custom_cat.php:24
+msgid "Posts Categorized:"
+msgstr "Archive des articles sous la catégorie :"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/archive.php:16
+msgid "Posts Tagged:"
+msgstr "Articles taggés :"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/archive.php:21
+msgid "Posts By:"
+msgstr "Articles par :"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/archive.php:26
+msgid "Daily Archives:"
+msgstr "Archives quotidiennes :"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/archive.php:31
+msgid "Monthly Archives:"
+msgstr "Archives mensuelles :"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/archive.php:36
+msgid "Yearly Archives:"
+msgstr "Archives annuelles :"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/archive.php:48
+#: C:\wamp\www\wordpress\wp-content\themes\bones/index.php:17
+#: C:\wamp\www\wordpress\wp-content\themes\bones/search.php:19
+#: C:\wamp\www\wordpress\wp-content\themes\bones/single-custom_type.php:32
+#: C:\wamp\www\wordpress\wp-content\themes\bones/single.php:17
+#: C:\wamp\www\wordpress\wp-content\themes\bones/taxonomy-custom_cat.php:34
+msgid "filed under"
+msgstr "dans la catégorie"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/archive.php:91
+msgid "This is the error message in the archive.php template."
+msgstr "C'est le message d'erreur du modèle archive.php"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Cet article est protégé par un mot de passe. Entrer le mot de passe pour voir les commentaires."
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/comments.php:25
+#, php-format
+msgid "One Response to "
+msgid_plural "%1$s Responses to "
+msgstr[0] "Un commentaire pour "
+msgstr[1] "%1$s commentaires pour "
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/comments.php:54
+msgid "No comments."
+msgstr "Pas de commentaires"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/comments.php:62
+msgid "Comments are closed."
+msgstr "Les commentaires sont clos."
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/comments.php:73
+msgid "Leave a Reply"
+msgstr "Laisser un commentaire"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/comments.php:73
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Laisser un commentaire à %s"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/comments.php:81
+msgid "You must be logged in to post a comment."
+msgstr "Vouz devez être identifié pour mettre un commentaire."
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/comments.php:89
+msgid "Logged in as"
+msgstr "Identifié comme"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/comments.php:89
+msgid "Log out"
+msgstr "Se déconnecter"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/comments.php:96
+msgid "Name"
+msgstr "Nom"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/comments.php:97
+msgid "Your Name*"
+msgstr "Votre nom"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/comments.php:101
+msgid "Mail"
+msgstr "Email"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/comments.php:102
+msgid "Your E-Mail*"
+msgstr "Votre adresse Email"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/comments.php:103
+msgid "(will not be published)"
+msgstr "(ne sera pas publié)"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/comments.php:107
+msgid "Website"
+msgstr "Site internet"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/comments.php:108
+msgid "Got a website?"
+msgstr "Vous avez un site internet ?"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/comments.php:115
+msgid "Your Comment here..."
+msgstr "Ecrivez ici votre commentaire"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/comments.php:118
+msgid "Submit"
+msgstr "Envoyer"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/comments.php:123
+msgid "You can use these tags"
+msgstr "Vous pouvez utiliser ces tags"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/functions.php:128
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr "<cite class=\"fn\">%s</cite>"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/functions.php:130
+msgid "(Edit)"
+msgstr "(Editer)"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/functions.php:134
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/functions.php:151
+msgid "Search for:"
+msgstr "Recherche pour :"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/functions.php:152
+msgid "Search the Site..."
+msgstr "Rechercher sur le site..."
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/functions.php:153
+msgid "Search"
+msgstr "Recherche"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/index.php:60
+msgid "This is the error message in the index.php template."
+msgstr "C'est le message d'erreur du modèle index.php"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/page-custom.php:53
+msgid "This is the error message in the page-custom.php template."
+msgstr "C'est le message d'erreur du modèle page-custom.php"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/page.php:47
+msgid "This is the error message in the page.php template."
+msgstr "C'est le message d'erreur du modèle page.php"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/search.php:53
+msgid "Sorry, No Results."
+msgstr "Désolé, aucun résultats"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/search.php:56
+msgid "Try your search again."
+msgstr "Esssayer une nouvelle recherche."
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/search.php:59
+msgid "This is the error message in the search.php template."
+msgstr "C'est le message d'erreur du modèle search.php"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/sidebar.php:12
 msgid "Please activate some Widgets."
 msgstr "Veuillez activer quelques widgets."
 
-#: library/bones.php:52
-msgid "Read more &raquo;"
-msgstr "En lire plus &raquo;"
+#: C:\wamp\www\wordpress\wp-content\themes\bones/single-custom_type.php:64
+msgid "This is the error message in the single-custom_type.php template."
+msgstr "C'est le message d'erreur du modèle single-custom_type.php"
 
-#: library/custom-post-type.php:24
+#: C:\wamp\www\wordpress\wp-content\themes\bones/single.php:47
+msgid "This is the error message in the single.php template."
+msgstr "C'est le message d'erreur du modèle single.php"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/taxonomy-custom_cat.php:75
+msgid "This is the error message in the taxonomy-custom_cat.php template."
+msgstr "C'est le message d'erreur du modèle taxonomy-custom_cat.php"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/library/bones.php:206
+msgid "The Main Menu"
+msgstr "Le menu principal"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/library/bones.php:207
+msgid "Footer Links"
+msgstr "Lien de pied de page"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/library/custom-post-type.php:24
 msgid "Custom Types"
 msgstr "Types personalisés"
 
-#: library/custom-post-type.php:25
+#: C:\wamp\www\wordpress\wp-content\themes\bones/library/custom-post-type.php:25
 msgid "Custom Post"
-msgstr "Article personalisé"
+msgstr "Articles personnalisés"
 
-#: library/custom-post-type.php:26
+#: C:\wamp\www\wordpress\wp-content\themes\bones/library/custom-post-type.php:26
+msgid "All Custom Posts"
+msgstr "Tous les articles personnalisés"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/library/custom-post-type.php:27
 msgid "Add New"
 msgstr "Ajouter nouveau"
 
-#: library/custom-post-type.php:27
+#: C:\wamp\www\wordpress\wp-content\themes\bones/library/custom-post-type.php:28
 msgid "Add New Custom Type"
-msgstr "Ajouter un nouveau type personalisé"
+msgstr "Ajouter nouveau type personalisé"
 
-#: library/custom-post-type.php:28
+#: C:\wamp\www\wordpress\wp-content\themes\bones/library/custom-post-type.php:29
 msgid "Edit"
 msgstr "Editer"
 
-#: library/custom-post-type.php:29
+#: C:\wamp\www\wordpress\wp-content\themes\bones/library/custom-post-type.php:30
 msgid "Edit Post Types"
-msgstr "Editer les types d'article"
+msgstr "Editer le type d'article"
 
-#: library/custom-post-type.php:30
+#: C:\wamp\www\wordpress\wp-content\themes\bones/library/custom-post-type.php:31
 msgid "New Post Type"
 msgstr "Nouveau type d'article"
 
-#: library/custom-post-type.php:31
+#: C:\wamp\www\wordpress\wp-content\themes\bones/library/custom-post-type.php:32
 msgid "View Post Type"
 msgstr "Voir le type d'article"
 
-#: library/custom-post-type.php:32
+#: C:\wamp\www\wordpress\wp-content\themes\bones/library/custom-post-type.php:33
 msgid "Search Post Type"
 msgstr "Rechercher un type d'article"
 
-#: library/custom-post-type.php:33
+#: C:\wamp\www\wordpress\wp-content\themes\bones/library/custom-post-type.php:34
 msgid "Nothing found in the Database."
-msgstr "Rien trouvé dans la base de données"
+msgstr "Rien n'a été trouvé dans la base de donnée"
 
-#: library/custom-post-type.php:34
+#: C:\wamp\www\wordpress\wp-content\themes\bones/library/custom-post-type.php:35
 msgid "Nothing found in Trash"
-msgstr "Rien trouvé dans la corbeille"
+msgstr "Rien n'a été trouvé dans la corbeille"
 
-#: library/custom-post-type.php:37
+#: C:\wamp\www\wordpress\wp-content\themes\bones/library/custom-post-type.php:38
 msgid "This is the example custom post type"
 msgstr "Ceci est un exemple de type d'article personalisé"
 
-#: library/custom-post-type.php:73
+#: C:\wamp\www\wordpress\wp-content\themes\bones/library/custom-post-type.php:75
 msgid "Custom Categories"
 msgstr "Catégories personalisées"
 
-#: library/custom-post-type.php:74
+#: C:\wamp\www\wordpress\wp-content\themes\bones/library/custom-post-type.php:76
 msgid "Custom Category"
 msgstr "Catégorie personalisée"
 
-#: library/custom-post-type.php:75
+#: C:\wamp\www\wordpress\wp-content\themes\bones/library/custom-post-type.php:77
 msgid "Search Custom Categories"
 msgstr "Rechercher dans les catégories personalisées"
 
-#: library/custom-post-type.php:76
+#: C:\wamp\www\wordpress\wp-content\themes\bones/library/custom-post-type.php:78
 msgid "All Custom Categories"
 msgstr "Toutes les catégories personalisées"
 
-#: library/custom-post-type.php:77
+#: C:\wamp\www\wordpress\wp-content\themes\bones/library/custom-post-type.php:79
 msgid "Parent Custom Category"
 msgstr "Catégorie personalisée parente"
 
-#: library/custom-post-type.php:78
+#: C:\wamp\www\wordpress\wp-content\themes\bones/library/custom-post-type.php:80
 msgid "Parent Custom Category:"
 msgstr "Catégorie personalisée parente :"
 
-#: library/custom-post-type.php:79
+#: C:\wamp\www\wordpress\wp-content\themes\bones/library/custom-post-type.php:81
 msgid "Edit Custom Category"
-msgstr "Editer la catégorie personalisée"
+msgstr "Editer la catégories personalisée"
 
-#: library/custom-post-type.php:80
+#: C:\wamp\www\wordpress\wp-content\themes\bones/library/custom-post-type.php:82
 msgid "Update Custom Category"
 msgstr "Mettre à jour la catégorie personalisée"
 
-#: library/custom-post-type.php:81
+#: C:\wamp\www\wordpress\wp-content\themes\bones/library/custom-post-type.php:83
 msgid "Add New Custom Category"
-msgstr "Ajouter une catégorie personalisée"
+msgstr "Ajouter une nouvelle catégorie personalisée"
 
-#: library/custom-post-type.php:82
+#: C:\wamp\www\wordpress\wp-content\themes\bones/library/custom-post-type.php:84
 msgid "New Custom Category Name"
-msgstr "Nouveau libellé de catégorie personalisée"
+msgstr "Nouveau nom de catégorie personalisée"
 
-#: library/custom-post-type.php:95
+#: C:\wamp\www\wordpress\wp-content\themes\bones/library/custom-post-type.php:96
+msgid "Custom Tags"
+msgstr "Tags personalisés"
+
+#: C:\wamp\www\wordpress\wp-content\themes\bones/library/custom-post-type.php:97
 msgid "Custom Tag"
-msgstr "Tag personnalisé"
+msgstr "Tag personalisé"
 
-#: library/custom-post-type.php:96
+#: C:\wamp\www\wordpress\wp-content\themes\bones/library/custom-post-type.php:98
 msgid "Search Custom Tags"
-msgstr "Rechercher un tag personalisé"
+msgstr "Rechercher dans les tags personalisés"
 
-#: library/custom-post-type.php:97
+#: C:\wamp\www\wordpress\wp-content\themes\bones/library/custom-post-type.php:99
 msgid "All Custom Tags"
 msgstr "Tous les tags personalisés"
 
-#: library/custom-post-type.php:98
+#: C:\wamp\www\wordpress\wp-content\themes\bones/library/custom-post-type.php:100
 msgid "Parent Custom Tag"
 msgstr "Tag personalisé parent"
 
-#: library/custom-post-type.php:99
+#: C:\wamp\www\wordpress\wp-content\themes\bones/library/custom-post-type.php:101
 msgid "Parent Custom Tag:"
 msgstr "Tag personalisé parent :"
 
-#: library/custom-post-type.php:100
+#: C:\wamp\www\wordpress\wp-content\themes\bones/library/custom-post-type.php:102
 msgid "Edit Custom Tag"
 msgstr "Editer le tag personalisé"
 
-#: library/custom-post-type.php:101
+#: C:\wamp\www\wordpress\wp-content\themes\bones/library/custom-post-type.php:103
 msgid "Update Custom Tag"
-msgstr "Mettre à jour le tag personalisé"
+msgstr "Mattre à jour le tag personalisé"
 
-#: library/custom-post-type.php:102
+#: C:\wamp\www\wordpress\wp-content\themes\bones/library/custom-post-type.php:104
 msgid "Add New Custom Tag"
-msgstr "Ajouter un nouveau tag personalisé"
+msgstr "Ajouter une nouveau tag personalisé"
 
-#: library/custom-post-type.php:103
+#: C:\wamp\www\wordpress\wp-content\themes\bones/library/custom-post-type.php:105
 msgid "New Custom Tag Name"
-msgstr "Libellé du nouveau tag personalisé"
+msgstr "Nom du nouveau tag personalisé"
 
