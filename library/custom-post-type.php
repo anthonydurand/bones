@@ -72,7 +72,7 @@ function custom_post_example() {
     	array('custom_type'), /* if you change the name of register_post_type( 'custom_type', then you have to change this */
     	array('hierarchical' => true,     /* if this is true it acts like categories */             
     		'labels' => array(
-    			'name' => __( 'Custom Categories', 'bonestheme' ), /* name of the custom taxonomy */
+    			'name' => _x( 'Custom Categories', 'bonestheme' ), /* name of the custom taxonomy */
     			'singular_name' => __( 'Custom Category', 'bonestheme' ), /* single taxonomy name */
     			'search_items' =>  __( 'Search Custom Categories', 'bonestheme' ), /* search title for taxomony */
     			'all_items' => __( 'All Custom Categories', 'bonestheme' ), /* all title for taxonomies */
@@ -81,7 +81,8 @@ function custom_post_example() {
     			'edit_item' => __( 'Edit Custom Category', 'bonestheme' ), /* edit custom taxonomy title */
     			'update_item' => __( 'Update Custom Category', 'bonestheme' ), /* update title for taxonomy */
     			'add_new_item' => __( 'Add New Custom Category', 'bonestheme' ), /* add new title for taxonomy */
-    			'new_item_name' => __( 'New Custom Category Name', 'bonestheme' ) /* name title for taxonomy */
+    			'new_item_name' => __( 'New Custom Category Name', 'bonestheme' ), /* name title for taxonomy */
+    			'menu_name' => __( 'Custom Categories' , 'bonestheme' ),
     		),
     		'show_ui' => true,
     		'query_var' => true,
@@ -93,7 +94,7 @@ function custom_post_example() {
     	array('custom_type'), /* if you change the name of register_post_type( 'custom_type', then you have to change this */
     	array('hierarchical' => false,    /* if this is false, it acts like tags */                
     		'labels' => array(
-    			'name' => __( 'Custom Tags', 'bonestheme' ), /* name of the custom taxonomy */
+    			'name' => _x( 'Custom Tags', 'bonestheme' ), /* name of the custom taxonomy */
     			'singular_name' => __( 'Custom Tag', 'bonestheme' ), /* single taxonomy name */
     			'search_items' =>  __( 'Search Custom Tags', 'bonestheme' ), /* search title for taxomony */
     			'all_items' => __( 'All Custom Tags', 'bonestheme' ), /* all title for taxonomies */
@@ -102,7 +103,8 @@ function custom_post_example() {
     			'edit_item' => __( 'Edit Custom Tag', 'bonestheme' ), /* edit custom taxonomy title */
     			'update_item' => __( 'Update Custom Tag', 'bonestheme' ), /* update title for taxonomy */
     			'add_new_item' => __( 'Add New Custom Tag', 'bonestheme' ), /* add new title for taxonomy */
-    			'new_item_name' => __( 'New Custom Tag Name', 'bonestheme' ) /* name title for taxonomy */
+    			'new_item_name' => __( 'New Custom Tag Name', 'bonestheme' ), /* name title for taxonomy */
+    			'menu_name' => __( 'Custom Tags' , 'bonestheme' ),
     		),
     		'show_ui' => true,
     		'query_var' => true,
